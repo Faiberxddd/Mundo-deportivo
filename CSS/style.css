@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #667eea 0%, #7644ba 100%);
+    background: linear-gradient(135deg, #245483 0%, #071D40 100%);
     color: white;
     padding: 2rem 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -47,4 +47,76 @@ nav a {
 
 nav a:hover {
     opacity: 0.7;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/vector-gratis/fondo-futbol-degradado-dinamico_23-2149007789.jpg?semt=ais_hybrid&w=740&q=80")center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    font-size: 1.6rem;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #24638D;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #245483;
+}
+
+.deportes {
+    padding: 4rem 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+
+.deporte-card {
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    background-color: #071D40;
+    
+}
+
+    
+    
 }
