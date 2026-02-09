@@ -15,7 +15,10 @@ header {
     background: linear-gradient(135deg, #245483 0%, #071D40 100%);
     color: white;
     padding: 2rem 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav {
@@ -92,7 +95,7 @@ nav a:hover {
     margin: 0 auto;
 }
 
-.container {
+.container-sport {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
@@ -100,23 +103,129 @@ nav a:hover {
 
 
 .deporte-card {
-    padding: 40px;
+    background-color: #fff;
+    overflow: hidden;
     border-radius: 20px;
-    text-align: center;
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);;
+}
+
+.deporte-card h4 {
+    padding : 5px;
+    margin: 1rem;
+}
+
+.deporte-card p {
+    padding : 5px;
+    margin: 1rem;
 }
 
 .card-title {
-    font-size: 1.8rem;
-    font-weight: 800;
-    text-align: center;
-    color: white;
-    background-color: #071D40;
-    
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
 }
 
-    
-    
+.futbol-card .card-title {
+    background: linear-gradient(135deg, #02A154 0%, #3BFC9F 100%);
+}
+
+.baloncesto-card .card-title {
+    background: linear-gradient(135deg, #FB7304 0%, #FCCF3B 100%);
+}
+
+.tenis-card .card-title {
+    background: linear-gradient(135deg, #0354CE 0%, #3BE9FC 100%);
+}
+
+.natacion-card .card-title {
+    background: linear-gradient(135deg, #4604FB 0%, #B904FB 100%);
+}
+
+.atletismo-card .card-title {
+    background: linear-gradient(135deg, #FB04C6 0%, #FEB9EF 100%);
+}
+
+.ciclismo-card .card-title {
+    background: linear-gradient(135deg, #A10202 0%, #FD5E5E 100%);
+}
+
+.container-estadisticas {
+    background: linear-gradient(135deg, #245483 0%, #071D40 100%);
+    padding: 1rem;
+    color: white;
+}
+
+.container-estadisticas h1{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.estadisticas {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.estadisticas p {
+    margin-top: 5px;
+    margin-bottom: 1rem;
+}
+
+.noticias {
+    padding: 4rem 5%
+}
+
+.news-card {
+    background-color: #ffffffea;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);;
+    padding: 3rem 2rem;
+    margin: 2rem 0 2rem;
+    border-left: 6px solid #245483;
+}
+
+.news-card h1 {
+    color: #0a3f94;   
+}
+
+.news-card span {
+    color: #8b8b8b;
+    font-size: 1rem;
+}
+
+.news-card p {
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+footer h1 {
+    font-size: 1.2rem;
+
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.footer-bottom {
+    margin-top: 1rem;
+    color: #949494;
 }
