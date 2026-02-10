@@ -14,7 +14,7 @@ body {
 header {
     background: linear-gradient(135deg, #245483 0%, #071D40 100%);
     color: white;
-    padding: 2rem 0;
+    padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0,0,0,1);
     position: sticky;
     top: 0;
@@ -22,9 +22,9 @@ header {
 }
 
 nav {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,12 +95,17 @@ nav a:hover {
     margin: 0 auto;
 }
 
+
 .container-sport {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
+.sports-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
 
 .deporte-card {
     background-color: #fff;
@@ -221,9 +226,23 @@ footer h1 {
 .footer-social {
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    margin: 1rem 0;
+    align-items: center;
 }
+
+.footer-social ul {
+    list-style: none;
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    color: white;
+    text-decoration: none;
+    transform: opacity 0.3s;
+    cursor: pointer;
+}
+
+.footer-social li:hover {
+    opacity: 0.7;
+}   
 
 .footer-bottom {
     margin-top: 1rem;
