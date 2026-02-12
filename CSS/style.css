@@ -266,7 +266,6 @@ footer h1 {
         text-align: center;
     }
 
-    /* HERO */
     .hero {
         height: auto;
         padding: 3rem 1rem;
@@ -280,7 +279,6 @@ footer h1 {
         font-size: 1.6rem;
     }
 
-    /* DEPORTES */
     .deportes {
         padding: 3rem 1rem;
     }
@@ -289,7 +287,6 @@ footer h1 {
         grid-template-columns: 1fr;
     }
 
-    /* ESTADÍSTICAS */
     .estadisticas {
         flex-direction: column;
         gap: 2rem;
@@ -301,7 +298,6 @@ footer h1 {
         font-size: 1.4rem;
     }
 
-    /* NOTICIAS */
     .news-card {
         padding: 2rem 1.5rem;
     }
